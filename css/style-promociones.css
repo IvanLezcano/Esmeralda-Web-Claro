@@ -1,18 +1,26 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-size: 28px;
+    padding: 0 !important;
+    font-size: 28px !important;
     box-sizing: border-box;
     background-color: transparent;
 }
 
+
+/* header */
+
+
+
+
+
+
+
 header{
     /* height: 25vh; */
-    min-width:100%;
-    max-width: 100%;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+    min-width:100% !important;
+    max-width: 100% !important;
+    display:flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
     background-image: url(../imagenes/fondo\ promociones.jpeg) ;
     background-size: 100% !important;
 
@@ -49,35 +57,48 @@ header{
     list-style: none;
     text-decoration: none;
     color: white;
-    text-transform: uppercase;
-    font-size: .5em;
+    text-transform: uppercase !important;
+    font-size: .5em !important;
   }
 ul{
     padding: 0 !important;
     margin: 0 !important;
 }
 a{
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 0.6rem;
+    text-decoration: none !important;
+    color: white !important;
+    text-transform: uppercase !important;
+    font-size: 0.6rem !important;
 }
 .logo{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
-    border: 2px solid; color:yellow;
+    width: 4rem !important;
+    height: 4rem !important;
+    border-radius: 50% !important;
+    border: 2px solid; color:yellow !important;
 }
 .titulo_pagina{
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    background-color: transparent;
+    font-family: 'Oswald', sans-serif !important;
+    text-align: center !important;
+    background-color: transparent !important;
     color: yellow;
-    font-size: 2.3rem;
+    font-size: 2.3rem !important;
     animation: animate__fadeIn;
-    animation-duration: 3s;
+    animation-duration: 3s ;
     
 }
+
+
+
+/* cuerpo de la pagina */
+
+
+
+
+
+
+
+
+
 .carousel{
  
     --carousel-control-width: 10rem;
@@ -98,20 +119,21 @@ a{
 }
 .foto-y-texto1{
     display: flex;
-    margin: 1rem;
+    margin: 1rem !important;
     color: red;
     justify-content: flex-start;
     
 }
 .titulo-imagen-cercana{
     font-family: 'Julius Sans One', sans-serif;
-    margin-left:1.2rem;
+    margin-left:1.2rem !important;
+    margin-bottom: 1rem !important;
     font-size: 0.9rem;
     text-align: center;
     color: aliceblue;
 }
 .texto-cerca-imagen{
-    margin-left: 1rem;
+    margin-left: 1rem !important;
     color: green;
     text-align: center;
 }
@@ -120,6 +142,7 @@ a{
     height: 14rem;
     border: 9px rgb(8, 83, 223);
     border-style: inset;
+    margin-left: 1rem !important;
 
 
 
@@ -139,6 +162,12 @@ a{
 body{
     background-color: black;
 }
+
+
+
+
+
+/* footer */
 
 footer{
     width: 100%;
