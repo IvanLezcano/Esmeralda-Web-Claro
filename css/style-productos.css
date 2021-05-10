@@ -54,7 +54,7 @@ header{
   }
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(238, 255, 0);
     text-transform: uppercase;
     font-size: 0.6rem;
 }
@@ -75,9 +75,8 @@ a{
     
 }
 .container{
-    color: rgb(56, 161, 87);
+    color: rgb(27, 209, 170);
     font-family: 'Padauk', sans-serif;
-    
     display: grid;
     grid-template-columns:10.5rem 16rem 1fr;
     grid-template-rows: repeat(50,12rem);
@@ -94,7 +93,7 @@ a{
     height: 200rem;
     text-align: center;
     height: 30rem;
-    background-color: rgb(56, 161, 87);
+    background-color: rgb(27, 209, 170);
     
 }
 .stick a{
@@ -104,7 +103,7 @@ a{
     margin: auto;
     margin-top:1.2rem !important;
     margin-bottom: 1.2rem !important;
-    color: aqua;
+    color: rgb(255, 255, 255);
     font-size: 0.8rem;
 }
 
@@ -119,12 +118,12 @@ a{
 
 
 .griditem{
-    border-right: 5px solid rgb(11, 78, 5);
+    border-right: 8px solid rgb(11, 78, 5);
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start:1 ;
     grid-row-end:50 ;
-    background-color: rgb(56, 161, 87);
+    background-color: rgb(27, 209, 170);
   
     
 }
@@ -134,7 +133,7 @@ a{
 
 .fotoproducto{
     width: 100%;
-    border: 1px solid red;
+    border: 3px solid rgb(11, 78, 5);
 }
 .fotoproducto img{
     width: 100%;
@@ -142,14 +141,15 @@ a{
    
 }
 .texto{
-    border:1px solid blue;
+    font-family: 'Padauk', sans-serif;
     font-size: 1.8rem;
-    color: yellow;
+    color: rgb(255, 255, 255);
 
 }
 
 body{
-    background-color: black;
+    background: rgb(38,133,82);
+background: linear-gradient(90deg, rgba(38,133,82,1) 20%, rgba(12,226,177,1) 99%);
 }
 footer{
     width: 100%;

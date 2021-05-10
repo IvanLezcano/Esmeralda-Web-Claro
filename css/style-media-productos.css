@@ -2,6 +2,22 @@
     .menumobile{
         display:block;
     }
+    a{
+        color:black !important;
+    }
+    li{
+        background-color: yellow !important;
+    }
+
+
+    .menumobile{
+        display: block;
+        color: red;
+    }
+
+    header{
+    }
+
     
     
       input {
@@ -105,11 +121,12 @@
         grid-column-end: 2;
         grid-row-start:1 ;
         grid-row-end:1 ;
-        background-color: rgb(2,0,36);
-        background: linear-gradient(90deg, rgb(181, 177, 255) 0%, rgb(93, 93, 165) 35%, rgba(0,212,255,1) 100%);
-        color: rgb(51, 255, 0);
+        background: rgb(38,133,82);
+        background: linear-gradient(90deg, rgba(38,133,82,1) 20%, rgba(12,226,177,1) 99%);
+                color: rgb(255, 255, 255);
         font-size: 0.65rem;
         text-align: center;
+        border: none;
         
       
         
@@ -124,7 +141,7 @@
     
     .fotoproducto{
         width: 100%;
-        border: 1px solid red;
+        border: 1px solid rgb(13, 141, 2);
     }
     .fotoproducto img{
         width: 100%;
@@ -132,9 +149,8 @@
        
     }
     .texto{
-        border:1px solid blue;
         font-size: 0.9rem;
-        color: yellow;
+        color: rgb(255, 255, 255);
     
     }
     
@@ -175,7 +191,9 @@
  
 @media  (min-width: 500px) and (max-width: 1024px){
 
-    
+    a{
+        color: black !important;
+    }
     .logo{
         width: 4rem;
         height: 4rem;
@@ -245,12 +263,12 @@
         grid-column-end: 2;
         grid-row-start:1 ;
         grid-row-end:1 ;
-        background-color: rgb(2,0,36);
-        background: linear-gradient(90deg, rgb(181, 177, 255) 0%, rgb(93, 93, 165) 35%, rgba(0,212,255,1) 100%);
-        color: rgb(51, 255, 0);
+        background: rgb(38,133,82);
+        background: linear-gradient(90deg, rgba(38,133,82,1) 20%, rgba(12,226,177,1) 99%);
+                color: rgb(255, 255, 255);
         font-size: 1rem;
-        margin: auto;
         text-align: center;
+        border: none;
         
       
         
@@ -265,16 +283,15 @@
     
     .fotoproducto{
         width: 100%;
-        border: 1px solid red;
+        border: 1px solid rgb(50, 158, 0);
     }
     .fotoproducto img{
         height: 100%;
        
     }
     .texto{
-        border:1px solid blue;
         font-size: 1.2rem;
-        color: yellow;
+        color: rgb(255, 255, 255);
     
     }
     

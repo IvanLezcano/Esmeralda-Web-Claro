@@ -23,6 +23,7 @@ header{
     align-items: center !important;
     background-image: url(../imagenes/fondo\ promociones.jpeg) ;
     background-size: 100% !important;
+    border-bottom: 3px solid rgb(8, 83, 223);
 
   
 
@@ -134,7 +135,7 @@ a{
 }
 .texto-cerca-imagen{
     margin-left: 1rem !important;
-    color: green;
+    color: rgb(13, 31, 82);
     text-align: center;
 }
 .foto-y-texto1 img{
@@ -160,7 +161,8 @@ a{
     justify-content: center;
 }
 body{
-    background-color: black;
+    background: rgb(70,149,230);
+background: linear-gradient(90deg, rgba(70,149,230,1) 7%, rgba(33,191,241,1) 29%, rgba(23,133,255,1) 69%, rgba(33,191,241,1) 87%);
 }
 
 

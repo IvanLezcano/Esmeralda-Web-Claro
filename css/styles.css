@@ -61,12 +61,13 @@ a{
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-size: 0.6rem;
-    animation: animate__flip;
-    animation-duration: 3s;
+  
     
 }
 li :hover{
-    background-color: aqua;
+    animation: animate__pulse;
+    animation-duration: 3s;
+    color:red
   
 }
 .logo{
@@ -135,7 +136,7 @@ li :hover{
 .foto-y-texto1 img{
     width: 26rem;
     height: 14rem;
-    border: 9px rgb(63, 228, 187);
+    border: 9px rgb(165, 236, 218);
     border-style: inset;
 
 
