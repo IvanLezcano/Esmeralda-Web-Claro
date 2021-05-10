@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+header{
+    /* height: 25vh; */
+    min-width:100%;
+    max-width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../imagenes/fondo_header.jpg) ;
+    background-size: 100% !important;
+
+  
+
+    /* background: url("./imagenes/fondo_header.jpg") no-repeat center ; */
+    
+}
+.menumobile{
+    display:none;
+}
+
+
+  input {
+    display: none;
+  }
+  label {
+    box-sizing: border-box;
+    display: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+  }
+  li {
+    display: inline;
+    background: transparent;
+    margin: 0 !important;
+    padding: 0px !important;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: .5em;
+  }
+ul{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+}
+.logo{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 2px solid; color:yellow;
+}
+.titulo_pagina{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background-color: transparent;
+    color: yellow;
+    font-size: 2.3rem;
+    animation: animate__fadeIn;
+    animation-duration: 3s;
+    
+}
+.carousel{
+ 
+    --carousel-control-width: 10rem;
+
+}
+.carousel-item{
+
+    height: 20rem !important;
+    margin-top: 0.5rem;
+
+}
+.imagenc{
+  width: auto;
+  height: auto;
+  max-width: 60rem;
+  max-height: 43rem;
+
+}
+.foto-y-texto1{
+    display: flex;
+    margin: 1rem;
+    color: red;
+    justify-content: flex-start;
+    
+}
+.titulo-imagen-cercana{
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left:1.2rem;
+    font-size: 0.9rem;
+    text-align: center;
+    color: aliceblue;
+}
+.texto-cerca-imagen{
+    margin-left: 1rem;
+    color: green;
+    text-align: center;
+}
+.foto-y-texto1 img{
+    width: 26rem;
+    height: 14rem;
+    border: 9px rgb(8, 83, 223);
+    border-style: inset;
+
+
+
+}
+.paginas li{
+    display:flex;
+    padding-left:1rem;
+    padding-right:1rem;
+
+}
+.redes{
+    color: aqua;
+}
+.foto_rellenar{
+    justify-content: center;
+}
+body{
+    background-color: black;
+}
+
+footer{
+    width: 100%;
+    margin: auto;
+ }
+ .redes{
+     width: 100%;
+     max-width: 30rem;
+     margin: auto;
+     margin-top:2rem;
+     margin-bottom: 2rem;
+     display: flex;
+     /* margin: 0 10rem ;  */
+     flex-direction: row;
+ }
+ .red{
+     margin: auto;
+     
+ }
+ .red a{
+     font-size: 1rem;
+ }
+ 
+ 

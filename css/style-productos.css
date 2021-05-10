@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    box-sizing: border-box;
+    background-color: transparent;
+
+}
+
+header{
+    /* height: 25vh; */
+    min-width:100%;
+    max-width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../imagenes/fondo_header.jpg) ;
+    background-size: cover !important;
+  
+
+    /* background: url("./imagenes/fondo_header.jpg") no-repeat center ; */
+    
+}
+.menumobile{
+    display:none;
+}
+
+
+  input {
+    display: none;
+  }
+  label {
+    box-sizing: border-box;
+    display: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+  }
+  li {
+    display: inline;
+    background: transparent;
+    margin: 0;
+    padding: 6px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: .5em;
+  }
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+}
+.logo{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 2px solid; color:yellow;
+}
+.titulo_pagina{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background-color: transparent;
+    color: yellow;
+    font-size: 2.3rem;
+    animation: animate__fadeIn;
+    animation-duration: 3s;
+    
+}
+.container{
+    color: rgb(56, 161, 87);
+    font-family: 'Padauk', sans-serif;
+    
+    display: grid;
+    grid-template-columns:10.5rem 16rem 1fr;
+    grid-template-rows: repeat(50,12rem);
+   
+    
+
+    border: 1px solid black;
+    grid-gap: 0.8rem;
+
+}
+.stick{
+    position: fixed;
+    width: 10rem;
+    height: 200rem;
+    text-align: center;
+    height: 30rem;
+    background-color: rgb(56, 161, 87);
+    
+}
+.stick a{
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    max-width: 30rem;
+    margin: auto;
+    margin-top:1.2rem !important;
+    margin-bottom: 1.2rem !important;
+    color: aqua;
+    font-size: 0.8rem;
+}
+
+.stick img{
+    height: 100%;
+    max-height: 5.5rem;
+    width: 55%;
+    border-radius: 50%;
+    border: 2px solid;
+    color: yellow;
+}
+
+
+.griditem{
+    border-right: 5px solid rgb(11, 78, 5);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:1 ;
+    grid-row-end:50 ;
+    background-color: rgb(56, 161, 87);
+  
+    
+}
+.griditem a{
+    color: rgb(56, 161, 87);
+}
+
+.fotoproducto{
+    width: 100%;
+    border: 1px solid red;
+}
+.fotoproducto img{
+    width: 100%;
+    height: 100%;
+   
+}
+.texto{
+    border:1px solid blue;
+    font-size: 1.8rem;
+    color: yellow;
+
+}
+
+body{
+    background-color: black;
+}
+footer{
+    width: 100%;
+    margin: auto;
+ }
+ .redes{
+     width: 100%;
+     max-width: 30rem;
+     margin: auto;
+     margin-top:2rem;
+     margin-bottom: 2rem;
+     display: flex;
+     /* margin: 0 10rem ;  */
+     flex-direction: row;
+ }
+ .red{
+     margin: auto;
+     
+ }
+ .red a{
+     font-size: 1rem;
+ }

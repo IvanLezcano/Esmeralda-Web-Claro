@@ -1,0 +1,217 @@
+@media  (max-width: 500px){
+
+
+
+
+
+
+    .menumobile{
+        display: block;
+    }
+
+    header{
+    }
+
+
+
+
+
+
+    .texto-inicio{
+        color: white;
+        text-align: center;
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+        font-size: 0.6rem;
+    }
+    .fotos-iniciales{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0.2rem;
+        /* border: 0.2rem solid blue ; */
+    
+    }
+    .fotos-iniciales img{
+        width: 33%;
+        height: 4.2rem;
+        border-radius: 2rem;
+        border: 1px solid aqua;
+        /* border: 0.2rem solid yellow; */
+    }
+    
+    .foto-y-texto1{
+        margin: 0 !important;
+
+        display: flex;
+        margin: 0;
+        color: red;
+        justify-content: flex-start;
+    }
+    .foto-y-texto1 img{
+        width: 5rem;
+        height: 3rem;
+        border: 9px green;
+        border-style: inset;
+    
+    
+    
+    }
+    .titulo-imagen-cercana{
+        margin: 0 !important;
+
+        font-size: 0.4rem;
+        margin-left: 1rem !important;
+        margin-top: 0 !important;
+    }
+    .texto-cerca-imagen{
+        width: 100%;
+        margin: 0 !important;
+            font-size: 0.4rem;
+        flex-direction: row;
+
+    }
+    .parte-final-index{
+        flex-direction: column;
+        color: brown;
+        display: flex;
+        justify-content: center;
+    }
+    .parte-final-index p{
+        flex-direction: column;
+        color: rgb(66, 94, 252);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 0.6rem;
+    }
+    .mapa{
+        flex-direction: row;
+
+        width: 10rem;
+        height: 6rem;
+        margin-left:1rem ;
+    }
+    .paginas li{
+        display:flex;
+        flex-direction: row;
+        padding-left:1rem;
+        padding-right:1rem;
+    
+    }
+}
+@media  (min-width: 500px) and (max-width: 1024px){
+
+
+    .menumobile{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+    .texto-inicio{
+        color: white;
+        text-align: center;
+        margin-top: 0.2rem;
+        margin-bottom: 0.8rem;
+        font-size: 1rem;
+    }
+    .fotos-iniciales{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0.2rem;
+        
+        /* border: 0.2rem solid blue ; */
+    
+    }
+    .fotos-iniciales img{
+        width: 33%;
+        height: 11rem;
+        border-radius: 2rem;
+        border: 1px solid aqua;
+        /* border: 0.2rem solid yellow; */
+    }
+    
+    .foto-y-texto1{
+        margin: 0 !important;
+
+        display: flex;
+        margin: 0;
+        color: red;
+        justify-content: flex-start;
+    }
+    .foto-y-texto1 img{
+        margin: 0 !important;
+
+        width: 10rem;
+        height: 6rem;
+        border: 9px green;
+        border-style: inset;
+    
+    
+    
+    }
+    .titulo-imagen-cercana{
+        font-size: 0.8rem;
+        margin: 0 !important;
+        margin-bottom: 0.1rem ;
+    }
+    .texto-cerca-imagen{
+        margin: 0 !important;
+            font-size: 1rem;
+            margin-left: 0.4rem;
+        flex-direction: row;
+
+    }
+    .parte-final-index{
+        color: brown;
+        display: flex;
+        justify-content: center;
+    }
+    .parte-final-index p{
+        color: rgb(66, 94, 252);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 0.6rem;
+    }
+    .mapa{
+
+        width: 10rem;
+        height: 6rem;
+        margin-left:1rem ;
+    }
+    .paginas li{
+        display:flex;
+        flex-direction: row;
+        padding-left:1rem;
+        padding-right:1rem;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

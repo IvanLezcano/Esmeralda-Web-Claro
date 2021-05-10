@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+header{
+    /* height: 25vh; */
+    min-width:100%;
+    max-height: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../imagenes/fondo_header.jpg) ;
+    background-size: 100% !important;
+
+
+    /* background: url("./imagenes/fondo_header.jpg") no-repeat center ; */
+    
+}
+.menumobile{
+    display:none;
+}
+
+
+  input {
+    display: none;
+  }
+  label {
+    box-sizing: border-box;
+    display: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+  }
+  li {
+    display: inline;
+    background: transparent;
+    margin: 0;
+    padding: 6px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: .5em;
+  }
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+}
+.logo{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 2px solid; color:yellow;
+}
+.titulo_pagina{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background-color: transparent;
+    color: yellow;
+    font-size: 2.3rem;
+    animation: animate__fadeIn;
+    animation-duration: 3s;
+    
+}
+.paginas li{
+    display:flex;
+    padding-left:1rem;
+    padding-right:1rem;
+
+}
+.redes{
+    color: aqua;
+}
+.foto_rellenar{
+    justify-content: center;
+}
+body{
+    background-color: black;
+}
+.youtube{
+    width: 100%;
+    margin: auto;
+}
+.videoYoutube{
+    display: flex; 
+    flex-wrap: wrap;
+    width: 100%;
+
+    max-width: 60rem;
+
+
+
+    justify-content: center;
+    align-items:center;
+    padding: 0px;
+    margin-top: 1rem !important;
+    margin-left: auto !important;
+    margin-right: auto;
+    margin-bottom: 1.2rem;
+	
+
+}
+.videoYoutube iframe{
+    width: 40rem;
+    height: 18rem;
+}
+
+.cuadrado{
+    border: 7rem  grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.texto_sobrenosotros{
+    font-family: 'Cormorant SC', serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+color: rgb(255, 253, 139);
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+font-size: 1.2rem;
+background-color: rgb(117, 204, 171);
+
+}
+.titulo{
+    font-family: 'Julius Sans One', sans-serif;
+
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 208, 0);
+    text-align: center;
+    font-size: 3rem;
+    border: 0.2rem solid green;
+    background-color: green;
+}
+
+footer{
+    width: 100%;
+    margin: auto;
+ }
+ .redes{
+     width: 100%;
+     max-width: 30rem;
+     margin: auto;
+     margin-top:2rem;
+     margin-bottom: 2rem;
+     display: flex;
+     /* margin: 0 10rem ;  */
+     flex-direction: row;
+ }
+ .red{
+     margin: auto;
+     
+ }
+ .red a{
+     font-size: 1rem;
+ }
+ 
