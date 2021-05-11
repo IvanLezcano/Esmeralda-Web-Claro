@@ -4,7 +4,6 @@
 
     a{
         color:black !important;
-        background-color: yellow;
     }
     li{
         background-color: yellow !important;
@@ -18,14 +17,16 @@
 
     header{
     }
-
+    label{
+        border: none !important;
+    }
 
 
 
 
 
     .texto-inicio{
-        color: white;
+        color: rgb(255, 123, 0);
         text-align: center;
         margin-top: 0.2rem;
         margin-bottom: 0.2rem;
@@ -59,7 +60,7 @@
     .foto-y-texto1 img{
         width: 5rem;
         height: 3rem;
-        border: 9px green;
+        border: 9px rgb(158, 252, 255);
         border-style: inset;
     
     
@@ -127,7 +128,7 @@
 
 
     .texto-inicio{
-        color: white;
+        color: rgb(255, 145, 0);
         text-align: center;
         margin-top: 0.2rem;
         margin-bottom: 0.8rem;
@@ -148,7 +149,7 @@
         width: 33%;
         height: 11rem;
         border-radius: 2rem;
-        border: 1px solid aqua;
+        border: 1px solid grey;
         /* border: 0.2rem solid yellow; */
     }
     
@@ -165,7 +166,7 @@
 
         width: 10rem;
         height: 6rem;
-        border: 9px green;
+        border: 9px rgb(158, 252, 255);
         border-style: inset;
     
     

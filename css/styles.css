@@ -65,8 +65,6 @@ a{
     
 }
 li :hover{
-    animation: animate__pulse;
-    animation-duration: 3s;
     color:red
   
 }
