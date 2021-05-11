@@ -6,6 +6,10 @@
     background-color: transparent;
 }
 
+/* HEADER */
+
+
+
 header{
     /* height: 25vh; */
     min-width:100%;
@@ -16,37 +20,27 @@ header{
     background: rgb(245,250,250);
 background: linear-gradient(90deg, rgba(245,250,250,1) 0%, rgba(143,63,227,1) 97%); ;
     background-size: 100% !important;
-    border-bottom:2px solid yellow ;
+        border-bottom:2px solid yellow ;
+
   
 
     /* background: url("./imagenes/fondo_header.jpg") no-repeat center ; */
     
 }
 .menumobile{
-    display:block;
-    
-}
-.menumobile input{
     display:none;
-    
 }
+#hamburger{
+border: none !important;}
 
-
-ul{
-    display: none;
-  }
-  
-  input:checked  ~ ul{
-    display:none !important;
-  }
   input {
     display: block;
-    color: aquamarine;
+    color: rgb(255, 255, 255);
   }
   label {
     box-sizing: border-box;
-    display: inline-block;
-    border: 1px solid black;
+    display: none;
+    border: none !important;
     border-radius: 5px;
     width: 30px;
     height: 30px;
@@ -57,25 +51,27 @@ ul{
   }
   li {
 
-    display: block;
-    background: lightgrey;
+    display: inline;
+    background: transparent;
     margin: 0;
-    padding: 2px;
+    padding: 6px;
     list-style: none;
-    border-bottom: 1px solid grey;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: .5em;
   }
-  a{
-  
-        text-decoration: none;
-        color: white;
-        text-transform: uppercase;
-        font-size: 10px;
-    }
-  .hamburger{
-    text-align: end;
-    color: yellow;
-  }
+  li :hover{
+    background-color: yellow;
 
+  }
+a{  
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    
+}
 
 .logo{
     width: 4rem;
@@ -103,19 +99,21 @@ ul{
 .redes{
     color: aqua;
 }
-.foto_rellenar{
-    justify-content: center;
-}
+
 body{
     background: rgb(239,215,255);
-background: linear-gradient(90deg, rgba(239,215,255,1) 0%, rgba(245,250,250,1) 16%, rgba(186,146,255,1) 93%);
-
+    background: linear-gradient(90deg, rgba(239,215,255,1) 0%, rgba(245,250,250,1) 16%, rgba(186,146,255,1) 93%);
 }
+
+
+/* CUERPO DEL FORMULARIO */
+
+
 .contactenos{
     display: flex;
     justify-content: center;
     font-size: 4rem;
-    color: rgb(0, 0, 0) !important;
+    color: aqua;
     padding: 2rem;
     animation-duration: 1s;
 animation-name: slidein;
@@ -138,7 +136,7 @@ to {
     display: flex;
     width: 100%;
     margin: 0;
-    color: #000000 !important;
+    color: #fcfcfc;
     font-family: 'EB Garamond', serif;
 }
 .contenedor2{
@@ -157,12 +155,12 @@ to {
 
 }
 .enviarbotton{
-    color: rgb(0, 0, 0) !important;
-    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
 }
 
 .seleccion{
-    color: rgb(0, 0, 0) !important;
+    color: blueviolet;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,12 +171,16 @@ to {
 
 
 textarea {
-    color: rgb(0, 0, 0) !important;
-    background: rgb(239,215,255);
-    background: linear-gradient(90deg, rgba(239,215,255,1) 0%, rgba(245,250,250,1) 16%, rgba(186,146,255,1) 93%);
-
+    color: aquamarine;
   
  }
+
+
+
+/* FOOTER */
+
+
+
  footer{
     width: 100%;
     margin: auto;
@@ -199,7 +201,6 @@ textarea {
  }
  .red a{
      font-size: 1rem;
-     color: black;
  }
  .mapa{
      width: 100%;
