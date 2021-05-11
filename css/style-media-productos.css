@@ -160,6 +160,7 @@
     footer{
         width: 100%;
         margin: auto;
+        border: none !important;
      }
      .redes{
          width: 100%;
@@ -301,6 +302,7 @@
     footer{
         width: 100%;
         margin: auto;
+        border: none !important;
      }
      .redes{
          width: 100%;
