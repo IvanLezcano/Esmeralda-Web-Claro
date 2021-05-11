@@ -35,7 +35,7 @@ border: none !important;}
 
   input {
     display: block;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
   label {
     box-sizing: border-box;
@@ -62,7 +62,7 @@ border: none !important;}
     font-size: .5em;
   }
   li :hover{
-    background-color: yellow;
+    color: yellow !important;
 
   }
 a{  
@@ -145,6 +145,7 @@ to {
     max-width: 30rem;
     margin: 0.5rem auto;
     font-family: 'EB Garamond', serif;
+    color: #000000 !important;
 
 }
 .botoncentrado{

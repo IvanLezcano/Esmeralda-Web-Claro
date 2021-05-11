@@ -2,12 +2,11 @@
 
     a{
         color:black !important;
-        background-color: yellow;
     }
     li{
         background-color: yellow !important;
     }
-
+    
 
     .menumobile{
         display: block;
@@ -16,7 +15,9 @@
 
     header{
     }
-
+    label{
+        border: none !important;
+    }
 
 
     .menumobile{

@@ -36,7 +36,7 @@
   label {
     box-sizing: border-box;
     display: inline-block;
-    border: 1px solid black;
+    border: none !important;
     border-radius: 5px;
     width: 30px;
     height: 30px;
@@ -156,7 +156,7 @@ footer{
     color: aliceblue !important;
 }
 .texto-cerca-imagen{
-    color:green !important;
+    color:rgb(10, 1, 141) !important;
     margin:20px !important;
 
     font-size: 0.6rem !important;
@@ -237,7 +237,7 @@ body{
         color: aliceblue;
     }
     .texto-cerca-imagen{
-        color:green;
+        color:rgb(10, 1, 141) !important;
         margin:0 !important;
     
         font-size: 0.6rem;

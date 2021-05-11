@@ -61,6 +61,10 @@ header{
     text-transform: uppercase !important;
     font-size: .5em !important;
   }
+  li :hover{
+    color: rgb(251, 255, 0) !important;
+}
+
 ul{
     padding: 0 !important;
     margin: 0 !important;

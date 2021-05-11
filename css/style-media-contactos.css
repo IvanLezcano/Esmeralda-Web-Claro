@@ -39,7 +39,7 @@
     li {
 
       display: block;
-      background: lightgrey;
+      background: rgb(255, 255, 255);
       margin: 0;
       padding: 2px;
       list-style: none;
@@ -179,7 +179,7 @@ textarea {
     label {
       box-sizing: border-box;
       display: inline-block;
-      border: 1px solid rgb(255, 244, 244);
+      border: 1px solid rgb(243, 193, 255);
       border-radius: 5px;
       width: 30px;
       height: 30px;
@@ -192,7 +192,7 @@ textarea {
 
       display: block;
       width: 6rem;
-      background: rgb(8, 255, 49);
+      background: rgb(255, 8, 8);
       margin: auto;
       padding: 2px;
       list-style: none;
@@ -327,10 +327,11 @@ textarea {
   color: rgb(255, 255, 255);
   font-size: 1rem;
 }
+a{
+color: rgb(0, 0, 0) !important;
 
- 
   
-
+}
 
 
   
@@ -388,7 +389,7 @@ textarea {
 
       display: block;
       width: 6rem;
-      background: rgb(8, 255, 49);
+      background: rgb(243, 193, 255);
       margin: auto;
       padding: 2px;
       list-style: none;
@@ -462,6 +463,7 @@ to {
     margin: auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
+
  }
  .redes{
      width: 100%;
@@ -473,10 +475,13 @@ to {
  }
  .red{
      margin: auto;
+
      
  }
  .red a{
      font-size: 1rem;
+     color: rgb(0, 0, 0) !important;
+
  }
  
 
