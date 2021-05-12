@@ -1,3 +1,6 @@
+
+/* medida celular */
+
 @media  (max-width: 500px){
 
 
@@ -38,7 +41,6 @@
         justify-content: space-between;
         align-items: center;
         margin-top: 0.2rem;
-        /* border: 0.2rem solid blue ; */
     
     }
     .fotos-iniciales img{
@@ -46,7 +48,6 @@
         height: 4.2rem;
         border-radius: 2rem;
         border: 1px solid aqua;
-        /* border: 0.2rem solid yellow; */
     }
     
     .foto-y-texto1{
@@ -110,6 +111,12 @@
     
     }
 }
+
+/* medida tablet */
+
+
+
+
 @media  (min-width: 500px) and (max-width: 1024px){
 
 
@@ -143,7 +150,6 @@
         align-items: center;
         margin-top: 0.2rem;
         
-        /* border: 0.2rem solid blue ; */
     
     }
     .fotos-iniciales img{
@@ -151,7 +157,6 @@
         height: 11rem;
         border-radius: 2rem;
         border: 1px solid grey;
-        /* border: 0.2rem solid yellow; */
     }
     
     .foto-y-texto1{
@@ -210,20 +215,6 @@
         padding-right:1rem;
     
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

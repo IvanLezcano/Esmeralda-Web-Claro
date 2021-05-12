@@ -7,8 +7,12 @@
 
 }
 
+
+/* header */
+
+
+
 header{
-    /* height: 25vh; */
     min-width:100%;
     max-width: 100%;
     display:flex;
@@ -17,10 +21,6 @@ header{
     background-image: url(../imagenes/fondo\ productos\ 2.jpg) ;
     background-size: cover !important;
     border: none !important;
-  
-
-    /* background: url("./imagenes/fondo_header.jpg") no-repeat center ; */
-    
 }
 .menumobile{
     display:none;
@@ -81,6 +81,11 @@ a{
     animation-duration: 3s;
     
 }
+
+
+/* cuerpo de la pagina */
+
+
 .container{
     color: rgb(27, 209, 170);
     font-family: 'Padauk', sans-serif;
@@ -165,6 +170,15 @@ body{
     background: rgb(38,133,82);
 background: linear-gradient(90deg, rgba(38,133,82,1) 20%, rgba(12,226,177,1) 99%);
 }
+
+
+
+
+
+/* footer */
+
+
+
 footer{
     width: 100%;
     margin: auto;
@@ -177,7 +191,6 @@ footer{
      margin-top:2rem;
      margin-bottom: 2rem;
      display: flex;
-     /* margin: 0 10rem ;  */
      flex-direction: row;
  }
  .red{

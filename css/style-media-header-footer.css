@@ -1,5 +1,12 @@
 
 
+/* MEDIDA CELULAR */
+
+
+
+
+
+
 
 @media  (max-width: 500px){
     
@@ -120,7 +127,7 @@
 
 
 
-
+/* MEDIDA TABLET */
 
 
 
@@ -214,7 +221,6 @@
      max-width: 30rem;
      margin: auto;
      display: flex;
-     /* margin: 0 10rem ;  */
      flex-direction: row;
  }
  .red{

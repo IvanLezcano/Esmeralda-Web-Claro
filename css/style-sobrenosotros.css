@@ -6,8 +6,21 @@
     background-color: transparent;
 }
 
+
+/* header */
+
+
+
+
+
+
+
+
+
+
+
+
 header{
-    /* height: 25vh; */
     min-width:100%;
     max-height: 100%;
     display:flex;
@@ -18,7 +31,6 @@ header{
     border-bottom: 3px solid rgb(255, 232, 28);
 
 
-    /* background: url("./imagenes/fondo_header.jpg") no-repeat center ; */
     
 }
 .menumobile{
@@ -87,9 +99,18 @@ a{
 .redes{
     color: aqua;
 }
-.foto_rellenar{
-    justify-content: center;
-}
+
+
+
+
+
+
+/* cuerpo de la pagina */
+
+
+
+
+
 body{
     background: rgb(12,226,213);
     background: linear-gradient(90deg, rgba(12,226,213,1) 17%, rgba(24,191,59,1) 57%, rgba(168,223,21,1) 95%);
@@ -159,6 +180,15 @@ background-color: rgb(117, 204, 171);
     border: 0.2rem solid green;
     background-color: green;
 }
+
+
+
+
+
+/* footer */
+
+
+
 
 footer{
     width: 100%;

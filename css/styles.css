@@ -8,8 +8,12 @@
 
 }
 
+/* header */
+
+
+
+
 header{
-    /* height: 25vh; */
     min-width:100%;
     max-width: 100%;
     display:flex;
@@ -17,8 +21,6 @@ header{
     align-items: center;
     background-image: url(../imagenes/fondo_header.jpg) ;
     background-size: 100% !important;
-
-    /* background: url("./imagenes/fondo_header.jpg") no-repeat center ; */
     border-bottom: 5px solid rgb(255, 123, 0) ;
     
 }
@@ -102,12 +104,20 @@ li :hover{
     
 }
 
+
+
+
+/* cuerpo de la pagina */
+
+
+
+
+
 .fotos-iniciales{
     width: 100%;
     margin: auto;
     display: flex;
     margin-top: 1rem;
-    /* border: 0.2rem solid blue ; */
 
 }
 .imagendeinicio{
@@ -115,7 +125,6 @@ li :hover{
     margin: auto;
     border-radius: 1rem;
     border: 3px solid grey;
-    /* border: 0.2rem solid yellow; */
 }
 
 .foto-y-texto1{
@@ -183,6 +192,17 @@ body{
     
 
 }
+
+
+
+/* footer */
+
+
+
+
+
+
+
 footer{
    width: 100%;
    margin: auto;
