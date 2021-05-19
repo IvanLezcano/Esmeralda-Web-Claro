@@ -1,7 +1,7 @@
 
 /* medida celular */
 
-@media  (max-width: 500px){
+@media  (max-width: 499px){
     .menumobile{
         display:block;
     }

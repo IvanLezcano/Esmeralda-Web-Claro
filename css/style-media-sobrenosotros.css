@@ -10,7 +10,7 @@
 
 
 
-@media  (max-width: 500px){
+@media  (max-width: 499px){
 
     a{
         color:black !important;
@@ -158,4 +158,7 @@
 a{
     color: black !important;
 }  
+.menumobile{
+    display: none;
+}
 }

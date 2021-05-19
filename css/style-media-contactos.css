@@ -2,7 +2,7 @@
 /* MEDIDA CELULAR */
 
 
-@media  (max-width: 500px){
+@media  (max-width: 499px){
   .menumobile{
       display:block;
       
@@ -246,7 +246,7 @@ textarea {
   }
  
   .contactenos{
-    font-size: 3rem;
+    font-size: 2rem;
     animation-duration: 1s;
 animation-name: slidein;
 }
