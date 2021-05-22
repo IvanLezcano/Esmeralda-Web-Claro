@@ -22,6 +22,10 @@ header{
     background-size: cover !important;
     border: none !important;
 }
+ul{
+    animation: animate__fadeInLeft;
+    animation-duration: 3s !important;
+}
 .menumobile{
     display:none;
     border: none !important;
@@ -78,7 +82,7 @@ a{
     color: yellow;
     font-size: 2.3rem;
     animation: animate__fadeIn;
-    animation-duration: 3s;
+    animation-duration: 5s !important;
     
 }
 
